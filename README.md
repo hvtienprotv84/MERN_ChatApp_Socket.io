@@ -18,12 +18,12 @@
 - Responsive
 
 ## RUN
-### (client)
+### Client
 - `cd public`
 - `npm install`
 - `npm start`
 
-### (server)
+### Server
 - `cd server`
 - `npm install`
 - `npm start`
