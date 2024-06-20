@@ -12,7 +12,7 @@
 - ReactJS cho UI
 - Backend dùng NodeJS
 - Authentication dùng JWT
-- MongoDB cho database 
+- MongoDB cho Database 
 - Socket.io để nhắn tin Realtime (thời gian thực)
 - CSS - Styled components
 - Responsive
