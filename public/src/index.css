@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&family=Playwrite+NZ&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,button,input{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+  max-height: 100vh;
+  max-width: 100wv;
+  overflow: hidden;
+}
+
+.hover_logout:hover::before{
+  position: absolute;
+  content: "Đăng Xuất";
+  color:white;
+  background: rgb(0, 98, 255);
+  padding:10px;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: opacity 1s step-start;
+  border: 2px white dashed;
+  right: 180px;
+  font-size: 20px;
+  top:63px;
+}
+.button_refresh{
+  background: red;
+  position: absolute;
+  border-radius: 10px;
+  border: 2px white dashed;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left:1340px;
+  margin-top:-30px;
+}
+.button_refresh a{
+  text-decoration: none;
+  outline: none;
+}
+.hover_button_refresh:hover::before{
+  position: absolute;
+  content: 'Bạn có thể "Refresh" để hiển thị thêm người dùng vừa tham gia!';
+  width: 610px;
+  height: 40px;
+  background-color: red;
+  right: 60px;
+  top: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  border: 2px white dashed;
+  color:white;
+}
+.icon_refresh{
+  width: 40px;
+  height: 40px;
+  color:white;
+  margin-top:5px;
+}
